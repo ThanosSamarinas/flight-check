@@ -9,7 +9,7 @@ What this does:
   - Prints the cheapest round trip per calendar week.
 
 Setup (one time):
-  pip install ryanair-py
+  pip install -r requirements.txt
 
 Run:
   python flight_check.py

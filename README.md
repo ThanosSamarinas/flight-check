@@ -47,10 +47,10 @@ source venv/bin/activate
 
 Your prompt should now start with `(venv)`.
 
-Install the Ryanair library:
+Install dependencies:
 
 ```
-pip install ryanair-py
+pip install -r requirements.txt
 ```
 
 ## Running the script
@@ -135,3 +135,7 @@ Time filters may be too strict, or the API returned nothing. Try lowering `OUT_M
 - Add Aegean via Amadeus API
 - Write results to a Google Sheet
 - Run daily via GitHub Actions cron (no laptop needed)
+
+## License
+
+MIT. See [LICENSE](LICENSE).
